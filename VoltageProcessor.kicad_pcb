@@ -1337,6 +1337,17 @@
 			(pintype "passive+no_connect")
 			(uuid "44a19d07-c8ba-4a10-b970-20deb5ab6130")
 		)
+		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 		(layer "F.Cu")
@@ -2133,7 +2144,7 @@
 			(pintype "passive")
 			(uuid "fbeb2765-03ea-4aee-a2ed-5f377f574de3")
 		)
-		(model "/home/simon/Documents/kicad/lib/smisioto/kicad_libs/modules/packages3d/walter/pth_resistors/trimmer_alps-rk09k1130ah1.wrl"
+		(model "/home/joppe/Stuff/Electronics/KiCad/libararies/rk09/R0904N-L-20KQ.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3490,7 +3501,7 @@
 			(pintype "passive")
 			(uuid "c818820a-e38f-4dfc-b44b-a74b5f55b963")
 		)
-		(model "/home/simon/Documents/kicad/lib/smisioto/kicad_libs/modules/packages3d/walter/pth_resistors/trimmer_alps-rk09k1130ah1.wrl"
+		(model "/home/joppe/Stuff/Electronics/KiCad/libararies/rk09/R0904N-L-20KQ.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3679,6 +3690,17 @@
 			(net 12 "unconnected-(J5-Pad3)")
 			(pintype "passive+no_connect")
 			(uuid "50c847bd-9734-4ba5-9150-8a0dd75eb904")
+		)
+		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
@@ -4201,7 +4223,7 @@
 			(pintype "passive")
 			(uuid "53891ee4-0013-4968-898d-63638319a643")
 		)
-		(model "/home/simon/Documents/kicad/lib/smisioto/kicad_libs/modules/packages3d/walter/pth_resistors/trimmer_alps-rk09k1130ah1.wrl"
+		(model "/home/joppe/Stuff/Electronics/KiCad/libararies/rk09/R0904N-L-20KQ.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4380,6 +4402,17 @@
 			(pintype "passive")
 			(uuid "c3cacab8-23ef-464f-9abc-5957f8d1e8bd")
 		)
+		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Eurocad:PJ301M-12"
 		(layer "F.Cu")
@@ -4547,6 +4580,17 @@
 			(net 5 "Net-(J2-Pad3)")
 			(pintype "passive")
 			(uuid "ec28736c-af87-4dee-a77f-bcb3157400b6")
+		)
+		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
