@@ -18,6 +18,9 @@ This is my second KiCad project in a long time so the routing is absolute shit :
 
 
 
+## Schematic
+
+![alt text](https://raw.githubusercontent.com/JopjeKnopje/VoltageProcessor/main/images/schematic.png)
 
 ## KiCad renders
 ![alt text](https://raw.githubusercontent.com/JopjeKnopje/VoltageProcessor/main/images/3d_front_hi.png)
