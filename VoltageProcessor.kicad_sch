@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "4bee6c8d-ae50-4a17-b8d6-5e6212a77216")
 	(paper "A4")
+	(title_block
+		(title "Voltage Processor")
+		(date "2024-07-28")
+		(rev "0.1")
+		(company "joppeboeve.nl")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Operational:TL074"
 			(pin_names
