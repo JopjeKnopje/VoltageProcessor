@@ -92,9 +92,9 @@
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions yes)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -1383,7 +1383,7 @@
 	)
 	(gr_line
 		(start 74.35 167.35)
-		(end 74.35 156.9)
+		(end 74.35 157.9)
 		(stroke
 			(width 0.1)
 			(type default)
