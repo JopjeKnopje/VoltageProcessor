@@ -1,33 +1,28 @@
-CMD = kikit 
+CMD 		:= kikit 
 
-PANEL_DIR = panelized
+PANEL_DIR	:= panelized
 
-INFILE = VoltageProcessor
-OUTFILE = $(PANEL_DIR)/$(INFILE)_panel.kicad_pcb
+INFILE		:= VoltageProcessor
+OUTFILE		:= $(PANEL_DIR)/$(INFILE)_panel.kicad_pcb
 
-INFILE += .kicad_pcb
+INFILE		:= $(INFILE:=.kicad_pcb)
 
 
-CMD_LAYOUT =  'grid; rows: 1; cols: 3; space: 2mm'
-CMD_TABS =  'fixed; width: 3mm; hcount: 5'
-CMD_CUTS = 'mousebites; drill: 0.5mm; spaceing: 1mm; offset: 0.2mm; prolong: 0.5mm' 
+CMD_LAYOUT	:=  'grid; rows: 1; cols: 3; space: 2mm'
+CMD_TABS 	:=  'fixed; width: 3mm; hcount: 5'
+CMD_CUTS	:= 'mousebites; drill: 0.5mm; spaceing: 1mm; offset: 0.2mm; prolong: 0.5mm' 
 
-# HAS_KIKIT := $(shell pip3 list | grep -F kikit; echo $$?)
+# HAS_KIKIT	:= $(shell pip3 list | grep -F kikit; echo $$?)
 # ifneq ($(HAS_KIKIT),0)
 #     $(error "kikit not installed please install using `pip3 install kikit`")
 # endif
 
 
-
-
-
 $(OUTFILE): $(INFILE)
-	@mkdir -p 
+	@mkdir -p $(PANEL_DIR)
 	kikit panelize --layout $(CMD_LAYOUT) --tabs $(CMD_TABS) --cuts $(CMD_CUTS) $(INFILE) $(OUTFILE)
 
-
-
 clean:
-	@rm $(OUTFILE)
+	@rm -rf $(PANEL_DIR)
 
 re: clean $(OUTFILE)
