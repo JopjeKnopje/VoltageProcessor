@@ -91,7 +91,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -117,12 +117,12 @@
 			(plotfptext yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerbers")
 		)
 	)
 	(net 0 "")
@@ -1335,7 +1335,7 @@
 			(pintype "passive+no_connect")
 			(uuid "44a19d07-c8ba-4a10-b970-20deb5ab6130")
 		)
-		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+		(model "${USER_LIBRARIES}/AudioJacks/AudioJacks.3dshapes/PJ301M-12_Knurl_nut.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3689,7 +3689,7 @@
 			(pintype "passive+no_connect")
 			(uuid "50c847bd-9734-4ba5-9150-8a0dd75eb904")
 		)
-		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+		(model "${USER_LIBRARIES}/AudioJacks/AudioJacks.3dshapes/PJ301M-12_Knurl_nut.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4400,7 +4400,7 @@
 			(pintype "passive")
 			(uuid "c3cacab8-23ef-464f-9abc-5957f8d1e8bd")
 		)
-		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+		(model "${USER_LIBRARIES}/AudioJacks/AudioJacks.3dshapes/PJ301M-12_Knurl_nut.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4579,7 +4579,7 @@
 			(pintype "passive")
 			(uuid "ec28736c-af87-4dee-a77f-bcb3157400b6")
 		)
-		(model "${USER_LIBRARIES}/PJ301M-12_Knurl_nut.step"
+		(model "${USER_LIBRARIES}/AudioJacks/AudioJacks.3dshapes/PJ301M-12_Knurl_nut.step"
 			(offset
 				(xyz 0 0 0)
 			)
