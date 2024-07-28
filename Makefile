@@ -2,14 +2,14 @@ CMD 		:= kikit
 
 PANEL_DIR	:= panelized
 
-INFILE		:= VoltageProcessor
+INFILE		:= FrontPanel
 OUTFILE		:= $(PANEL_DIR)/$(INFILE)_panel.kicad_pcb
 
 INFILE		:= $(INFILE:=.kicad_pcb)
 
 
-CMD_LAYOUT	:=  'grid; rows: 1; cols: 3; space: 2mm'
-CMD_TABS 	:=  'fixed; width: 3mm; hcount: 5'
+CMD_LAYOUT	:= 'grid; rows: 1; cols: 3; space: 2mm'
+CMD_TABS 	:= 'fixed; width: 3mm; hcount: 5'
 CMD_CUTS	:= 'mousebites; drill: 0.5mm; spaceing: 1mm; offset: 0.2mm; prolong: 0.5mm' 
 
 # HAS_KIKIT	:= $(shell pip3 list | grep -F kikit; echo $$?)
