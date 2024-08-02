@@ -12,9 +12,12 @@ This module does just that, I indend to just use 1 CV input with the beatstep an
 This is my second KiCad project in a long time so the routing is absolute shit :)
 
 ### Todo
-- [ ] Front panel
-- [ ] Produce and test rev 0.1
-- [ ] Change potmeter position?
+- [ ] Flip eurorack power connector around x-axis, I currently use a flipped power cable as a workaround.
+- [ ] Fix jack hole should be 6mm instead of 5.3mm.
+- [ ] Add polarity symbol in C5 and C6.
+- [ ] Think about more ergonomic potmeter position.
+- [x] Front panel
+- [x] Produce and test rev 0.1
 
 
 
