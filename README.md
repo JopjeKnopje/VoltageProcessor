@@ -10,11 +10,15 @@ This module does just that, I indend to just use 1 CV input with the beatstep an
 
 ### Notes
 This is my second KiCad project in a long time so the routing is absolute shit :)
+Measured the current consumption at 9mA @ +12V and 9mA @ -12V
+
 
 ### Todo
 - [ ] Flip eurorack power connector around x-axis, I currently use a flipped power cable as a workaround.
+- [ ] J4 and J5 output should be on pin 3 instead of pin 2 lol.
 - [ ] Fix jack hole should be 6mm instead of 5.3mm.
 - [ ] Add polarity symbol in C5 and C6.
+- [ ] RV1 and RV2 twisting direction.
 - [ ] Think about more ergonomic potmeter position.
 - [x] Front panel
 - [x] Produce and test rev 0.1
