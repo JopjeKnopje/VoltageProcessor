@@ -4077,7 +4077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 53.0352 128.27 0)
 			(effects
 				(font
@@ -4280,7 +4280,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "534e12cb-c763-4011-a941-3575ad71234a")
 		(property "Reference" "#PWR010"
 			(at 19.05 90.17 0)
@@ -4292,7 +4291,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 19.05 88.9 0)
+			(at 19.05 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +4930,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7c5e013c-3b95-4764-917b-d576f1bb429f")
 		(property "Reference" "#PWR017"
 			(at 36.83 90.17 0)
@@ -4943,7 +4941,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 88.9 0)
+			(at 36.83 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,6 +6406,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 26.67 81.28 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6415,7 +6414,7 @@
 		(dnp no)
 		(uuid "d0fa24e9-5897-454c-ac4f-9c04e213ae42")
 		(property "Reference" "J3"
-			(at 20.32 77.47 0)
+			(at 27.94 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6423,7 +6422,7 @@
 			)
 		)
 		(property "Value" "Eurorack power"
-			(at 25.4 70.866 0)
+			(at 25.654 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6750,7 +6749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 53.0352 120.65 0)
 			(effects
 				(font
@@ -6989,7 +6988,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7b60aca-4e42-40e8-a4be-ce2ee307a065")
 		(property "Reference" "#PWR013"
 			(at 27.94 85.09 0)
@@ -7001,7 +6999,7 @@
 			)
 		)
 		(property "Value" "-12V"
-			(at 27.94 93.98 0)
+			(at 27.94 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)

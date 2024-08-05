@@ -19,10 +19,10 @@ Measured the current consumption at 1mA @ +12V and 7mA @ -12V
 
 
 ### Todo
-- [ ] All of the `rev 0.1 patches`
+- [x] All of the `rev 0.1 patches`
 - [ ] Fix jack hole should be 6mm instead of 5.3mm.
-- [ ] Add polarity symbol in C5 and C6.
-- [ ] Switch RV1 and RV2 twisting direction.
+- [x] Add polarity symbol in C5 and C6.
+- [x] Switch RV1 and RV2 twisting direction.
 - [ ] Think about more ergonomic potmeter position.
 - [x] Front panel
 - [x] Produce and test rev 0.1
