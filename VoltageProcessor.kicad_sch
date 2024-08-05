@@ -2126,12 +2126,12 @@
 		(uuid "f19e901a-8fb9-4197-8f04-a5a2075a8116")
 	)
 	(no_connect
-		(at 167.64 35.56)
-		(uuid "571ec861-2fb3-44fc-bf72-95b3934348da")
+		(at 160.02 73.66)
+		(uuid "2fd82be7-a750-4d7c-972c-eea31d6af6cc")
 	)
 	(no_connect
-		(at 160.02 68.58)
-		(uuid "e5f5b1a7-b3e5-4634-92e8-3eefab05e65a")
+		(at 167.64 40.64)
+		(uuid "8551670c-c8f8-4592-8f32-ccb0e309a288")
 	)
 	(wire
 		(pts
@@ -2252,16 +2252,6 @@
 			(type default)
 		)
 		(uuid "275174b3-c1db-43fb-826e-e7b31a178b7f")
-	)
-	(wire
-		(pts
-			(xy 154.94 71.12) (xy 160.02 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28d1870a-5c84-492a-8f53-c222f2768f38")
 	)
 	(wire
 		(pts
@@ -2545,6 +2535,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 71.12) (xy 160.02 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a29e611-a992-480d-9c1f-6de67335c292")
+	)
+	(wire
+		(pts
 			(xy 111.76 54.61) (xy 116.84 54.61)
 		)
 		(stroke
@@ -2572,16 +2572,6 @@
 			(type default)
 		)
 		(uuid "9087da49-551e-4e35-97b5-ef5d22e5854f")
-	)
-	(wire
-		(pts
-			(xy 165.1 38.1) (xy 167.64 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9402182e-9880-4d5d-8818-0ebf350822f1")
 	)
 	(wire
 		(pts
@@ -2785,6 +2775,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 40.64) (xy 96.52 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db47139a-6855-4b97-9441-ab71faa6c288")
+	)
+	(wire
+		(pts
 			(xy 128.27 54.61) (xy 128.27 60.96)
 		)
 		(stroke
@@ -2865,6 +2865,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 38.1) (xy 167.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f92e0b3e-5464-4734-a300-a65a06048a1e")
+	)
+	(wire
+		(pts
 			(xy 36.83 83.82) (xy 34.29 83.82)
 		)
 		(stroke
@@ -2892,6 +2902,16 @@
 			)
 		)
 		(uuid "bce85a68-baf9-4b98-97d4-587b715c519c")
+	)
+	(text "Inverting buffer (which works)"
+		(exclude_from_sim no)
+		(at 92.456 62.992 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c23374e3-77ff-4e31-aec9-0890e6b124f5")
 	)
 	(text "IN2_Attenuate"
 		(exclude_from_sim no)
@@ -2978,7 +2998,7 @@
 	)
 	(symbol
 		(lib_id "eurocad:PJ301M-12")
-		(at 171.45 71.12 180)
+		(at 171.45 73.66 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2986,7 +3006,7 @@
 		(dnp no)
 		(uuid "08193e57-7d88-4959-b663-4856d89ceefa")
 		(property "Reference" "J4"
-			(at 173.355 81.28 0)
+			(at 173.355 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3014,7 @@
 			)
 		)
 		(property "Value" "PJ301M-12"
-			(at 173.355 78.74 0)
+			(at 173.355 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3002,7 +3022,7 @@
 			)
 		)
 		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 171.45 71.12 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3011,7 +3031,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 71.12 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +3039,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 71.12 0)
+			(at 171.45 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4188,7 +4208,7 @@
 	)
 	(symbol
 		(lib_id "eurocad:PJ301M-12")
-		(at 179.07 38.1 180)
+		(at 179.07 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4196,7 +4216,7 @@
 		(dnp no)
 		(uuid "4e64cec8-abc0-479b-a0c0-6fbd405b875c")
 		(property "Reference" "J5"
-			(at 180.975 48.26 0)
+			(at 180.975 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4204,7 +4224,7 @@
 			)
 		)
 		(property "Value" "PJ301M-12"
-			(at 180.975 45.72 0)
+			(at 180.975 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4212,7 +4232,7 @@
 			)
 		)
 		(property "Footprint" "Eurocad:PJ301M-12"
-			(at 179.07 38.1 0)
+			(at 179.07 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4221,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 38.1 0)
+			(at 179.07 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4229,7 +4249,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 38.1 0)
+			(at 179.07 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4721,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 41.91 0)
+		(at 167.64 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4709,7 +4729,7 @@
 		(dnp no)
 		(uuid "69717bc5-d26b-4e4b-a7b8-d51973a857dd")
 		(property "Reference" "#PWR024"
-			(at 167.64 48.26 0)
+			(at 167.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4718,7 +4738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 46.228 0)
+			(at 167.64 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4726,7 +4746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 41.91 0)
+			(at 167.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4735,7 +4755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 41.91 0)
+			(at 167.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4744,7 +4764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 41.91 0)
+			(at 167.64 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,6 +5079,7 @@
 	(symbol
 		(lib_id "Amplifier_Operational:TL074")
 		(at 104.14 38.1 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5066,7 +5087,7 @@
 		(dnp no)
 		(uuid "870401d0-bf69-471b-a913-bd4b7f462355")
 		(property "Reference" "U1"
-			(at 107.696 35.052 0)
+			(at 107.696 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +5095,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 103.378 38.354 0)
+			(at 103.378 37.846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5103,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 102.87 35.56 0)
+			(at 102.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5112,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 105.41 33.02 0)
+			(at 105.41 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6640,7 +6661,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 74.93 0)
+		(at 160.02 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6648,7 +6669,7 @@
 		(dnp no)
 		(uuid "d53ead12-2b02-4c83-abb7-d91dfa344d4b")
 		(property "Reference" "#PWR023"
-			(at 160.02 81.28 0)
+			(at 160.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6657,7 +6678,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 79.248 0)
+			(at 160.02 81.788 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +6686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 74.93 0)
+			(at 160.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6674,7 +6695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 74.93 0)
+			(at 160.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +6704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 74.93 0)
+			(at 160.02 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

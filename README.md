@@ -24,6 +24,9 @@ Measured the current consumption at 9mA @ +12V and 9mA @ -12V
 - [x] Produce and test rev 0.1
 
 
+### Falstad
+https://tinyurl.com/26u5qrzk
+
 
 ## Schematic
 
