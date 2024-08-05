@@ -7,7 +7,7 @@
 	(title_block
 		(title "Voltage Processor")
 		(date "2024-07-28")
-		(rev "0.1")
+		(rev "0.2")
 		(company "joppeboeve.nl")
 	)
 	(lib_symbols
