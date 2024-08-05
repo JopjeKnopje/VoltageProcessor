@@ -6,7 +6,7 @@
 	(paper "A5")
 	(title_block
 		(title "Voltage Processor")
-		(date "2024-07-28")
+		(date "2024-08-06")
 		(rev "0.2")
 		(company "joppeboeve.nl")
 	)
