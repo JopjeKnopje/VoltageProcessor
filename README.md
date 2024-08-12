@@ -21,6 +21,7 @@ Measured the current consumption at 1mA @ +12V and 7mA @ -12V
 ### Todo
 - [x] All of the `rev 0.1 patches`
 - [ ] Fix jack hole should be 6mm instead of 5.3mm.
+- [ ] DC Offset potmeter compensate for opamp rail-rail offset which is around 1.3v
 - [x] Add polarity symbol in C5 and C6.
 - [x] Switch RV1 and RV2 twisting direction.
 - [ ] Think about more ergonomic potmeter position.
