@@ -2,7 +2,7 @@ CMD 		:= kikit
 
 PANEL_DIR	:= panelized
 
-INFILE		:= FrontPanel
+INFILE		:= VoltageProcessor
 OUTFILE		:= $(PANEL_DIR)/$(INFILE)_panel.kicad_pcb
 
 INFILE		:= $(INFILE:=.kicad_pcb)
