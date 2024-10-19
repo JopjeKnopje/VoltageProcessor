@@ -1,20 +1,18 @@
 # VoltageProcessor
 
-A eurorack module that outputs the sum and difference of the two inputs, you can also add a constant DC offset to the summing output.
+A eurorack module that outputs the **sum** and **difference** of two inputs, you can also add a constant DC offset to the summing output.
 
 
 ## Motivation
-My beatstep's pitch output cannot go lower than 2V, the vco I'm using has a range of approximately 0-5V so I needed a way to subtract the 2V off of the pitch output.
-This module does just that, I indend to just use 1 CV input with the beatstep and the constant DC offset at -2V to achieve an output of 0V with a 2V input.
+The Beatstep Pro's pitch output cannot go lower than **2V**, the VCO I'm using has a range of approximately **0-5V**, so I had a way to subtract the **2V** off of the pitch output. This module does just that, I intend to just use 1 CV input and a constant DC offset at **-2V** to achieve an output of **0V** with a **2V** input. <br>
+You could also use it as a small 2 -> 1 mixer.
 
 
 ### Notes
-This is my second KiCad project in a long time so the routing is not the best :)
-Measured the current consumption at 1mA @ +12V and 7mA @ -12V
+This is my second KiCad project in a long time so the routing is not the best :) <br>
+Measured the current consumption at **1mA @ +12V** and **7mA @ -12V**
 
 
-### Falstad simulation
-https://tinyurl.com/26u5qrzk
 
 
 ## Bill of materials
@@ -30,10 +28,14 @@ https://tinyurl.com/26u5qrzk
 |RV1,RV2,RV3|100k                         |3     |
 |U1       |TL074                        |1     |
 
+[Interactive BOM](https://www.joppeboeve.nl/projects/voltage-processor/ibom.html)
+
+[Falstad simulation](https://tinyurl.com/26u5qrzk)
 
 ## Schematic
 
 ![alt text](https://raw.githubusercontent.com/JopjeKnopje/VoltageProcessor/main/images/schematic.png)
+
 
 ## KiCad renders
 ![alt text](https://raw.githubusercontent.com/JopjeKnopje/VoltageProcessor/main/images/3d_front_hi.png)
@@ -60,5 +62,11 @@ https://tinyurl.com/26u5qrzk
 - [ ] Think about more ergonomic potmeter position.
 - [x] Front panel
 - [x] Produce and test rev 0.1
+
+## Resources
+[Summing Amplifier](https://www.electronics-tutorials.ws/opamp/opamp_4.html) 
+
+[Differential Amplifier](https://www.electronics-tutorials.ws/opamp/opamp_5.html)
+
 
 
